@@ -1,6 +1,6 @@
 # This is a code to decode morse code messagers. 
 # In morse code message each letter is seperated by space and each word is seperated by two spaces.
-M = M= { 'A':'.-', 'B':'-...',
+M= { 'A':'.-', 'B':'-...',
                     'C':'-.-.', 'D':'-..', 'E':'.',
                     'F':'..-.', 'G':'--.', 'H':'....',
                     'I':'..', 'J':'.---', 'K':'-.-',
@@ -19,7 +19,7 @@ M = M= { 'A':'.-', 'B':'-...',
 import sys
 for line in sys.stdin:
     message = str(line.strip())
-    message += ' ' # extra space to add the last mprse code
+    message += ' ' # extra space to add the last morse code
 
     decode ='' # string to output the decoded message
     text =''   
