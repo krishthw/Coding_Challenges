@@ -6,8 +6,8 @@
 
 # my approach
 # make both lists lengths equal by adding leading zeros
-# initial carry over = 0
-# convert each values of list indices to integers and add them, take carry to the next and insert result to a new list
+# initial carry over is set to 0
+# convert each values of list indices to integers and add them, take carry to the next and insert result to a new list. 
 # if carry is !=0 at the end, insert it as well
 # convert list to a string
 
